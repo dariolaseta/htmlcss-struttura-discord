@@ -44,7 +44,7 @@ div ul.flex{
 }
 
 .margin{
-    margin: 20px 28%;
+    margin: 30px 28%;
 }
 
 .blue-sect{
@@ -62,7 +62,7 @@ div ul.flex{
     display: block;
 }
 
-.wrapper{
+.container-blue{
     width: 900px;
     height: 400px;
     background-color: #1e90ff;
@@ -70,9 +70,27 @@ div ul.flex{
     border-right: dashed;
 }
 
-.container-2{
-    
+.container-pink{  
     background-color: #ffc0cb;
     margin-top: 70px;
     flex-basis: 30%;
+}
+
+.bg-grey{
+    background-color: lightgrey;
+    height: 500px;
+    justify-content: center;
+}
+
+.container-blue-reverse{
+    width: 840px;
+    height: 400px;
+    background-color: #1e90ff;
+    flex-basis: 70%;
+}
+
+.container-pink-reverse{  
+    background-color: #ffc0cb;
+    flex-basis: 30%;
+    border-right: dashed;
 }
