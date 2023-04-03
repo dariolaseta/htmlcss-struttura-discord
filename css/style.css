@@ -10,13 +10,31 @@
 }
 
 header{
-    height: 300px;
+    height: 100px;
     background-color: #add8e6;
 }
 
-.bg-color{
+.header-nav{
     background-color: #daa520;
-    height: 100px;
+    height: 50px;
+    width: 60%;
+    max-width: 1200px;
+}
+
+.links{
+    width: 100%;
+}
+
+.external-tabs{
+    width: 30%;
+    justify-content: center;
+    font-size: 20px;
+}
+
+ul{
+    list-style-type: none;
+    justify-content: space-evenly;
+    font-size: 20px;
 }
 
 .border{
@@ -27,20 +45,6 @@ header{
     border-right: dashed;
 }
 
-div ul.flex{
-    list-style-type: none;
-    justify-content: space-between;
-}
-
-.logo{
-    align-items: flex-start;
-    padding-right: 30%;
-}
-
-.login{
-    align-items: flex-end;
-    padding-left: 30%;
-}
 
 .margin{
     margin: 30px auto;
@@ -55,23 +59,27 @@ div ul.flex{
 
 .container-small{
     width: 40%;
-    height: 400px; 
+    height: 400px;
+    max-width: 900px;
 }
 
 .container-big{
     width: 60%; 
     height: 400px;
+    max-width: 1200px;
 }
 
 .container-long{
     width: 60%;
     height: 900px;
+    max-width: 1200px;
 }
 
 .container-segment{
     width: 17%;
     border-left: dashed;
     height: 396px;
+    max-width: 1200px;
 }
 
 .content-right{
