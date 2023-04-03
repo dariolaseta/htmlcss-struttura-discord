@@ -60,6 +60,7 @@ div ul.flex{
 
 .container-big{
     width: 60%; 
+    height: 400px;
 }
 
 .container-long{
@@ -67,12 +68,30 @@ div ul.flex{
     height: 900px;
 }
 
+.container-segment{
+    width: 17%;
+    border-left: dashed;
+    height: 396px;
+}
+
+.content-right{
+    justify-content: flex-end;
+}
+
+.bg-grey{
+    background-color: lightgrey;
+}
+
+.bg-black{
+    background-color: #23272a;
+}
+
 .magenta{
     background-color: #ee82ee
 }
 
 .blue{
-    height: 400px;
+    height: 100%;
     background-color: #1e90ff;
 }
 
@@ -80,10 +99,15 @@ div ul.flex{
     background-color: #ffc0cb;
 }
 
-.bg-grey{
-    background-color: lightgrey;
-}
-
 .green{
     background-color: #228b22;
+}
+
+.coral{
+    background-color: #f08080;
+}
+
+.aqua{
+    background-color: #20b2aa;
+    
 }
