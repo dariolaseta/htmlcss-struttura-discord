@@ -94,3 +94,17 @@ div ul.flex{
     flex-basis: 30%;
     border-right: dashed;
 }
+
+.green-container{
+    height: 900px;
+    width: 840px;
+    background-color: #228b22;
+    margin-top: 55px;
+    border: dashed;
+}
+
+.long-bg{
+    background-color: lightgrey;
+    height: 1000px;
+    justify-content: center;
+}
