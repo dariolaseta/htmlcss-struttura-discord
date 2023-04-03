@@ -15,7 +15,6 @@ header{
 }
 
 .header-nav{
-    background-color: #daa520;
     height: 50px;
     width: 60%;
     max-width: 1200px;
@@ -44,7 +43,6 @@ ul{
 .border-right{
     border-right: dashed;
 }
-
 
 .margin{
     margin: 30px auto;
@@ -86,12 +84,33 @@ ul{
     justify-content: flex-end;
 }
 
+footer{
+    height: 100px;
+    background-color: #23272a;
+}
+
+.footer-nav{
+    height: 50px;
+    width: 60%;
+    max-width: 1200px;
+}
+
+.right-button{
+    width: 30%;
+    justify-content: space-around;
+    font-size: 20px;
+}
+
 .bg-grey{
-    background-color: lightgrey;
+    background-color: #c9c9c9;
 }
 
 .bg-black{
     background-color: #23272a;
+}
+
+.orange{
+    background-color: #daa520;
 }
 
 .magenta{
@@ -117,5 +136,8 @@ ul{
 
 .aqua{
     background-color: #20b2aa;
-    
+}
+
+.light-blue{
+    background-color: #7fffd4;
 }
