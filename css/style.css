@@ -59,4 +59,20 @@ div ul.flex{
     height: 70%;
     background-color: #ee82ee;
     margin-top: 70px;
+    display: block;
+}
+
+.wrapper{
+    width: 900px;
+    height: 400px;
+    background-color: #1e90ff;
+    flex-basis: 70%;
+    border-right: dashed;
+}
+
+.container-2{
+    
+    background-color: #ffc0cb;
+    margin-top: 70px;
+    flex-basis: 30%;
 }
